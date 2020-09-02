@@ -1,0 +1,116 @@
+body{
+  width: 100vw;
+  background: #efebeb;
+}
+.container{
+  padding: 10px;
+}
+.title{
+  width: 100%;
+  font-size: 50px;
+}
+.filter-container, .space-list-container{
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+.filter-text {
+  font-size: 35px;
+  font-weight: bold;
+}
+.launch-text, .success-launch-text, .success-landing-text{
+  text-align: center;
+  border-bottom: 3px solid #827a7a;
+  font-size: 23px;
+}
+.date-container, .success-launch, .success-landing{
+  position: relative;
+}
+.launch-year, .launch-true, .launch-false, .landing-true-false{
+  display: inline-block;
+  padding: 3% 7%;
+  margin: 3% 9%;
+  background: #80d680;
+  color: #fff;
+  width: 17%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.success-launch, .success-landing{
+  margin-top: 10px;
+}
+.selected{
+  background: #3e913e;
+}
+.space-list-container{
+  text-align: center;
+}
+.rocket-details{
+  padding: 10px;
+}
+.rocket-image{
+  background: #eaeaea;
+  width: 100%
+}
+.text-details{
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+.space-name{
+  color: blue;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+  .filter-container{
+    width: 28%;
+    display: inline-block;
+  }
+  .space-data{
+    width: 64%;
+    float: right;
+  }
+  .space-list-container{
+    width: 36%;
+    display: inline-block;
+    margin-right: 4%;
+
+  }
+  .rocket-image{
+    width: 90%
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+  .title{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .filter-text{
+    font-size: 25px;
+  }
+  .launch-text, .success-launch-text, .success-landing-text{
+    font-size: 20px;
+  }
+  .text-details{
+    font-size: 13px;
+  }
+  .filter-container{
+    width: 15%;
+    display: inline-block;
+  }
+  .space-data{
+    width: 80%;
+    float: right;
+  }
+  .space-list-container{
+    width: 18%;
+    display: inline-block;
+    margin-right: 2%;
+
+  }
+  .rocket-image{
+    width: 100%
+  }
+}
